@@ -13,7 +13,10 @@ const Home = () => {
   return (
     <StBody>
       <div className="innerBody">
-        <Button text="go Success" onClick={() => navigate(`/success`)} />
+        <Button
+          text="삐약삐약삐약삐약삐약삐약"
+          onClick={() => navigate(`/success`)}
+        />
         <Button text="make Error" onClick={() => throwError()} />
       </div>
     </StBody>

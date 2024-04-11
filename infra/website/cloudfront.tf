@@ -6,7 +6,7 @@ resource "aws_cloudfront_distribution" "cf_dist" {
   is_ipv6_enabled     = true
   default_root_object = "/index.html"
 
-  comment = "Created by monthly-cs"
+  comment = "Created by Evan"
   tags = {
     "monthly-cs" : "monthly-cs"
     "week" : 1
